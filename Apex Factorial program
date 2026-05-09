@@ -1,0 +1,14 @@
+public class FactorialProgram {
+    public static Integer factorial(Integer num){
+        
+        Integer fact = 1;
+    	
+    	for(Integer i = 1; i<=num; i++){
+        	fact = fact * i;
+    	}
+    	return fact;
+    }
+}
+
+//Integer result = FactorialProgram.factorial(3);
+//System.debug('Factorial = '+result);
